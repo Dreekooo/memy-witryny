@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memy</title>
+    <link rel="icon" href="../obrazy/Ikona.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="../css/style - index.css">
+</head>
+<body>
+    <div id="header">
+        <div id="h-text">
+            <h1>
+                MEMY
+            </h1>
+            <h2>
+                DNA DUSZY
+            </h2>
+        </div>
+    </div>
+    
+    <div id="nav">
+        <a href="Strona główna.html"><button id="btn1" class="menu-btn">Strona główna</button></a>
+        <a href="Galeria.html"><button id="btn2" class="menu-btn">Galeria memów</button></a>
+        <a href="Generator memów.html"><button id="btn3" class="menu-btn">Generator memów</button></a>
+        <a href="turniej.html"><button id="btn4" class="menu-btn">Turniej memów</button></a>
+    </div>
+    <div id="content">
+        <div id="l-article">
+                <div id="l-header">
+                    Galeria
+                </div>
+                <div id="l-art-cont">
+                    Znajdź humor idealny dla ciebie wybierając najlepszą tematykę za pomocą kategorii!
+                    <br>
+                    <hr>
+                    <a href="Galeria.html">
+                        <button id="l-art-btn">WIĘCEJ</button>
+                    </a>
+                </div>
+        </div>
+        <div id="memes">
+            <div id="menu-memes">
+                MENU
+                <div id="filtry-memes">
+                    <div id="filtry-memes-header">
+                        <h3>FILTRY GRAFICZNE</h3>
+                        <h4>Nałóż filtry graficzne na memy, aby uzyskać lepszy lub śmieszniejszy efekt</h4>
+                    </div>
+                    <div id="filtry">
+                        <form>
+                            <label class="f-label"><input type="radio" name="f-input" id="f-in-brak" checked><div id="f-brak" title="Brak filtrów" class="filtry-btn" onclick="style_none()">BRAK</div></label>
+                            <label class="f-label"><input type="radio" name="f-input" id="f-in-nasycenie"><div id="f-nasycenie" title="Nasycenie 300%" class="filtry-btn" onclick="style_saturation()">NASYCENIE</div></label>
+                            <label class="f-label"><input type="radio" name="f-input" id="f-in-hue"><div id="f-hue" title="Odwrócenie barw 90 stopni" class="filtry-btn" onclick="style_hue()">ODWRÓCENIE BARW</div></label>
+                            <label class="f-label"><input type="radio" name="f-input" id="f-in-kontrast"><div id="f-kontrast" title="Kontrast 200%" class="filtry-btn" onclick="style_contrast()">KONTRAST</div></label>
+                            <label class="f-label"><input type="radio" name="f-input" id="f-in-negatyw"><div id="f-negatyw" title="Negatyw 100%" class="filtry-btn" onclick="style_invert()">NEGATYW</div></label>
+                            <label class="f-label"><input type="radio" name="f-input" id="f-in-czarny"><div id="f-czarny" title="Skala szarości 100%" class="filtry-btn" onclick="style_black()">CZARNO-BIAŁY</div></label>
+                        </form>
+                    </div>
+                </div>
+                <div id="sortowanie-memes">
+                    <div id="sort-memes-header">
+                        <h3>SORTOWANIE</h3>
+                        <h4>Posortuj filtry graficzne, dzięki czemu będzie ci łatwiej zobaczyć najnowsze lub najstarsze memy</h4>
+                    </div>
+                    <div id="sortowanie">
+                        <label class="sort-label"><input type="radio" name="s-input" id="s-in-new" checked><div id="sort-new" class="sort-btn" onclick="sort_as_new()">NAJNOWSZE</div></label>
+                        <label class="sort-label"><input type="radio" name="s-input" id="s-in-old"><div id="sort-old" class="sort-btn" onclick="sort_as_old()">NAJSTARSZE</div></label>
+                        <div id="sort-site">
+                            <div class="s-site-btn" id="site-first" onclick="site_num1()">&lt;&lt;</div>
+                            <div class="s-site-btn" id="site-less" onclick="site_less()">&lt;</div>
+                            <div class="s-site-btn" id="s-number-2" onclick="site_num1()">1</div>
+                            <div class="s-site-btn" id="s-number-1" onclick="site_num2()">2</div>
+                            <div class="s-site-btn" id="s-number0" onclick="site_num3()">3</div>
+                            <div class="s-site-btn" id="s-number1" onclick="site_num4()">4</div>
+                            <div class="s-site-btn" id="s-number2" onclick="site_num5()">5</div>
+                            <div class="s-site-btn" id="site-more" onclick="site_more()">&gt;</div>
+                            <div class="s-site-btn" id="site-last" onclick="site_num5()">&gt;&gt;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="memes-img">
+                <div class="memes-meme-div">
+                </div>
+            </div>
+        </div>
+        <div id="r-article">
+            <div id="r-header">
+                Turniej memów
+            </div>
+            <div id="r-art-cont">
+                Przeprowadź twój własny turniej memów!
+                <br>
+                Wylosuj 8 losowych memów i po kolei wybieraj który z nich jest zabawniejszy.
+                <br>
+                Niech wygra najśmieszniejszy!
+                <br>
+                <hr>
+                <a href="turniej.html">
+                    <button id="l-art-btn">WIĘCEJ</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="klasa1">
+        Grzegorz Kawulok 2022&copy;
+    </div>
+    <script src="../javascript/memes_importer.js"></script>
+</body>
+</html>

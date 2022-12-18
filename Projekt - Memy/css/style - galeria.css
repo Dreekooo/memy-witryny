@@ -1,0 +1,200 @@
+*{
+    font-family: "Georgia Pro";
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(49, 49, 49);
+    color: beige;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+a:hover{
+    text-decoration: underline white;
+}
+#header{
+    background-image: url(../obrazy/tła/bg1.jpg);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    text-shadow: 5px 5px 5px black;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+#h-text{
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    text-align: center;
+    max-width: auto;
+}
+#nav{
+    width: 100vw;
+    text-align: center;
+}
+.menu-btn{
+    width: 13vw;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    background-color: rgb(7, 7, 44);
+    border: 3px black;
+    border-style: outset;
+    border-radius:10px;
+    color: beige;
+    transform: scale(1);
+    transition: 1s;
+    font-size: large;
+}
+.menu-btn:hover{
+    transform: scale(1.2);
+    background-color: rgb(31, 63, 105);
+    font-weight: bold;
+    border-color: rgb(74, 174, 255);
+    box-shadow: 0 0 1em aqua;
+}
+#content{
+    width: 100vw;
+    height: auto;
+}
+#galeria{
+    float: left;
+    text-align: center;
+    width: 59%;
+    height: auto;
+    padding: 0;
+    margin-bottom: 3vh;
+}
+#g-header{
+    width: 92%;
+    height: auto;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px outset rgb(46, 46, 46);
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+#g-icons{
+    width: 100%;
+    padding: 3%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.g-row{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.img-row{
+    width: 10%;
+    height: 10%;
+    margin-left: 1.7%;
+    margin-right: 1.7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: left;
+}
+.g-space{
+    clear: both;
+    width: 100%;
+    height: 1px;
+}
+#l-article{
+    float: left;
+    width: 19%;
+    height: 20vh;
+    text-align: center;
+    text-decoration: none;
+}
+#l-header{
+    background-color: rgb(20, 20, 20);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    font-weight: bold;
+}
+#l-art-cont{
+    background-color: rgb(41, 41, 41);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    padding: 10%;
+}
+#l-art-btn{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    background-color: blue;
+    border: 2px black outset;
+    transform: scale(1);
+    transition: 1s;
+    color: bisque;
+}
+#l-art-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 121, 121);
+    border-color: bisque;
+    box-shadow: 0 0 1em aqua;
+}
+#r-article{
+    float: left;
+    width: 19%;
+    height: 20vh;
+    text-align: center;
+    text-decoration: none;
+}
+#r-header{
+    background-color: rgb(20, 20, 20);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    font-weight: bold;
+}
+#r-art-cont{
+    background-color: rgb(41, 41, 41);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    padding: 10%;
+}
+#r-art-btn{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    background-color: blue;
+    border: 2px black outset;
+    transform: scale(1);
+    transition: 1s;
+    color: bisque;
+}
+#r-art-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 121, 121);
+    border-color: bisque;
+    box-shadow: 0 0 1em aqua;
+}
+#footer{
+    width: 100vw;
+    background-color: black;
+    color: bisque;
+    font-size: small;
+    text-align: center;
+    clear: both;
+}

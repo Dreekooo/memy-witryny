@@ -1,0 +1,297 @@
+*{
+    font-family: "Georgia Pro";
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    color: beige;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+a:hover{
+    text-decoration: underline white;
+}
+#header{
+    background-image: url(../obrazy/tła/bg1.jpg);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-shadow: 5px 5px 5px black;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+#h-text{
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    text-align: center;
+    max-width: auto;
+}
+#nav{
+    width: 100%;
+    text-align: center;
+}
+.menu-btn{
+    width: 13vw;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    background-color: rgb(7, 7, 44);
+    border: 3px black;
+    border-style: outset;
+    border-radius:10px;
+    color: beige;
+    transform: scale(1);
+    transition: 1s;
+    font-size: large;
+}
+.menu-btn:hover{
+    transform: scale(1.2);
+    background-color: rgb(31, 63, 105);
+    font-weight: bold;
+    border-color: rgb(74, 174, 255);
+    box-shadow: 0 0 1em aqua;
+}
+#content{
+    width: 100%;
+    height: auto;
+}
+#l-article{
+    float: left;
+    width: 19%;
+    height: 20vh;
+    text-align: center;
+    text-decoration: none;
+}
+#l-header{
+    background-color: rgb(20, 20, 20);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    font-weight: bold;
+}
+#l-art-cont{
+    background-color: rgb(41, 41, 41);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    padding: 10%;
+}
+#l-art-btn{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    background-color: blue;
+    border: 2px black outset;
+    transform: scale(1);
+    transition: 1s;
+    color: bisque;
+}
+#l-art-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 121, 121);
+    border-color: bisque;
+    box-shadow: 0 0 1em aqua;
+}
+#turniej{
+    float: left;
+    text-align: center;
+    width: 59%;
+    height: auto;
+    padding: 0;
+    margin-bottom: 3vh;
+}
+#t-menu{
+    width: 92%;
+    height: auto;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px outset rgb(46, 46, 46);
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+#t-header{
+    width: 90%;
+    background-color: rgb(233, 233, 233);
+    border: 2px outset;
+    min-height: 20px;
+    margin: 3%;
+    border-radius: 5px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-shadow: none;
+}
+#t-machine{
+    width: 80%;
+    background-color: rgb(233, 233, 233);
+    border: 2px outset;
+    min-height: 20px;
+    margin: 3%;
+    border-radius: 5px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-shadow: none;
+    padding: 5%;
+    overflow: hidden;
+    text-align: center;
+}
+#t-start{
+    min-width: 120px;
+    width: 90%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px outset black;
+    border-radius: 10px;
+    background-color: rgb(100, 99, 99);
+    color: white;
+    transform: scale(1);
+    transition: 1s;
+}
+#t-start:hover{
+    transform: scale(1.1);
+    background-color: rgb(180, 180, 180);
+    border-color: rgb(39, 39, 39);
+    box-shadow: 0 0 1em rgb(126, 134, 134);
+    cursor: pointer;
+    color: black;
+}
+#t-f1{
+    width: 47%;
+    padding: 1%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    text-align: center;
+    justify-content: center;
+}
+#t-f2{
+    width: 47%;
+    padding: 1%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    text-align: center;
+    justify-content: center;
+}
+.t-img{
+    max-width: 90%;
+}
+#t-f-btns{
+    clear: both;
+}
+#t-f-btn1{
+    min-width: 120px;
+    width: 45%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px outset black;
+    border-radius: 10px;
+    background-color: rgb(100, 99, 99);
+    color: white;
+    transform: scale(1);
+    transition: 1s;
+    float: left;
+}
+#t-f-btn1:hover{
+    transform: scale(1.1);
+    background-color: rgb(180, 180, 180);
+    border-color: rgb(39, 39, 39);
+    box-shadow: 0 0 1em rgb(126, 134, 134);
+    cursor: pointer;
+    color: black;
+}
+#t-f-btn2{
+    min-width: 120px;
+    width: 45%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px outset black;
+    border-radius: 10px;
+    background-color: rgb(100, 99, 99);
+    color: white;
+    transform: scale(1);
+    transition: 1s;
+    float: right;
+}
+#t-f-btn2:hover{
+    transform: scale(1.1);
+    background-color: rgb(180, 180, 180);
+    border-color: rgb(39, 39, 39);
+    box-shadow: 0 0 1em rgb(126, 134, 134);
+    cursor: pointer;
+    color: black;
+}
+#r-article{
+    float: left;
+    width: 19%;
+    height: 20vh;
+    text-align: center;
+    text-decoration: none;
+}
+#r-header{
+    background-color: rgb(20, 20, 20);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    font-weight: bold;
+}
+#r-art-cont{
+    background-color: rgb(41, 41, 41);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    padding: 10%;
+}
+#r-art-btn{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    background-color: blue;
+    border: 2px black outset;
+    transform: scale(1);
+    transition: 1s;
+    color: bisque;
+}
+#r-art-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 121, 121);
+    border-color: bisque;
+    box-shadow: 0 0 1em aqua;
+}
+#footer{
+    width: 100%;
+    background-color: black;
+    color: bisque;
+    font-size: small;
+    text-align: center;
+    clear: both;
+}

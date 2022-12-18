@@ -1,0 +1,200 @@
+*{
+    font-family: "Georgia Pro";
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 95vw;
+    height: 100%;
+    background-color: rgb(49, 49, 49);
+    color: beige;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+a:hover{
+    text-decoration: underline white;
+}
+#header{
+    background-image: url(../obrazy/tła/bg1.jpg);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-shadow: 5px 5px 5px black;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+#h-text{
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    text-align: center;
+    max-width: auto;
+}
+#nav{
+    width: 100%;
+    text-align: center;
+}
+.menu-btn{
+    width: 13vw;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    background-color: rgb(7, 7, 44);
+    border: 3px black;
+    border-style: outset;
+    border-radius:10px;
+    color: beige;
+    transform: scale(1);
+    transition: 1s;
+    font-size: large;
+}
+.menu-btn:hover{
+    transform: scale(1.2);
+    background-color: rgb(31, 63, 105);
+    font-weight: bold;
+    border-color: rgb(74, 174, 255);
+    box-shadow: 0 0 1em aqua;
+}
+#content{
+    width: 100%;
+    height: auto;
+}
+#l-article{
+    float: left;
+    width: 19%;
+    height: 20vh;
+    text-align: center;
+    text-decoration: none;
+}
+#l-header{
+    background-color: rgb(20, 20, 20);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    font-weight: bold;
+}
+#l-art-cont{
+    background-color: rgb(41, 41, 41);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    padding: 10%;
+}
+#l-art-btn{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    background-color: blue;
+    border: 2px black outset;
+    transform: scale(1);
+    transition: 1s;
+    color: bisque;
+}
+#l-art-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 121, 121);
+    border-color: bisque;
+    box-shadow: 0 0 1em aqua;
+}
+#generator-machine{
+    float: left;
+    text-align: center;
+    width: 59%;
+    height: auto;
+    padding: 0;
+    margin-bottom: 3vh;
+}
+#gm{
+    width: 92%;
+    height: auto;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px outset rgb(46, 46, 46);
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+#g-img{
+    margin: 5%;
+}
+.img{
+    max-width: 95%;
+}
+#g-button{
+    margin: 5%;
+}
+#g-btn{
+    width: 20%;
+    padding: 2%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(31, 31, 31);
+    border: 2px black outset;
+    transform: scale(1);
+    transition: 1s;
+    color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+}
+#g-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(109, 109, 109);
+    border-color: bisque;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+#r-article{
+    float: left;
+    width: 19%;
+    height: 20vh;
+    text-align: center;
+    text-decoration: none;
+}
+#r-header{
+    background-color: rgb(20, 20, 20);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    font-weight: bold;
+}
+#r-art-cont{
+    background-color: rgb(41, 41, 41);
+    color: bisque;
+    border: 2px bisque outset;
+    margin-left: 10%;
+    padding: 10%;
+}
+#r-art-btn{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    background-color: blue;
+    border: 2px black outset;
+    transform: scale(1);
+    transition: 1s;
+    color: bisque;
+}
+#r-art-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 121, 121);
+    border-color: bisque;
+    box-shadow: 0 0 1em aqua;
+}
+#footer{
+    width: 100%;
+    background-color: black;
+    color: bisque;
+    font-size: small;
+    text-align: center;
+    clear: both;
+}
